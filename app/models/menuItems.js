@@ -7,4 +7,4 @@ const MenuItemsSchema = mongoose.Schema({
     price_large: Number
 })
 
-module.exports = mongoose.model('MenuItemsSchema', MenuItemsSchema);
+module.exports = mongoose.model('MenuItem', MenuItemsSchema);
