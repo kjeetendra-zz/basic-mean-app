@@ -1,0 +1,23 @@
+{
+  "name": "basic-mean-app",
+  "version": "1.0.0",
+  "description": "menu management app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjeetendra/basic-mean-app.git"
+  },
+  "keywords": [
+    "mean",
+    "node"
+  ],
+  "author": "Jeetendra Kashyap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjeetendra/basic-mean-app/issues"
+  },
+  "homepage": "https://github.com/kjeetendra/basic-mean-app#readme"
+}
