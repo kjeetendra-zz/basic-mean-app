@@ -16,7 +16,7 @@ app.listen(port,() => {
     console.log("Server is listening on port 3000");
 });
 
-const dbConfig = require('./config/database.js');
+const dbConfig = require('./app/config/database.js');
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
