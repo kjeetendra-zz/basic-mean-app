@@ -14,6 +14,11 @@ app.get('/', (req, res) => {
 require('./app/routes/cat_routes.js')(app);
 require('./app/routes/menuItems.js')(app);
 
+app.get('/logout', function(req, res){
+    req.logout();
+    res.redirect('/');
+  });
+  
 app.listen(port,() => {
     console.log("Server is listening on port 3000");
 });
