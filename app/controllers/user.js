@@ -12,7 +12,7 @@ exports.postUsers = function(req, res) {
     if (err)
       res.send(err);
 
-    res.json({ message: 'New beer added' });
+    res.json({ message: 'New User added' });
   });
 };
 
